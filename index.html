@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bazaario | </title>
+  <style>
+    :root {
+      --bg: #F8FAFC;
+      --card: #FFFFFF;
+      --border: #E2E8F0;
+      --text: #0F172A;
+      --muted: #64748B;
+      --faint: #94A3B8;
+      --primary: #2563EB;
+      --primary-tint: #EFF6FF;
+      --primary-dark: #1D4ED8;
+      --success: #059669;
+      --success-tint: #ECFDF5;
+      --warning: #D97706;
+      --warning-tint: #FFFBEB;
+      --danger: #DC2626;
+      --danger-tint: #FEF2F2;
+      --slate: #64748B;
+      --slate-tint: #F1F5F9;
+      --hover: #F1F5F9;
+      --header-bg: rgba(248, 250, 252, 0.92);
+      --chart-muted: #CBD5E1;
+      --chart-tint: #DBEAFE;
+      color-scheme: light;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+
+    html.dark {
+      --bg: #0B1220;
+      --card: #111827;
+      --border: #1F2937;
+      --text: #F1F5F9;
+      --muted: #94A3B8;
+      --faint: #64748B;
+      --primary: #3B82F6;
+      --primary-tint: rgba(59, 130, 246, 0.15);
+      --primary-dark: #60A5FA;
+      --success: #10B981;
+      --success-tint: rgba(16, 185, 129, 0.15);
+      --warning: #F59E0B;
+      --warning-tint: rgba(245, 158, 11, 0.15);
+      --danger: #EF4444;
+      --danger-tint: rgba(239, 68, 68, 0.15);
+      --slate: #94A3B8;
+      --slate-tint: #1E293B;
+      --hover: #1A2333;
+      --header-bg: rgba(11, 18, 32, 0.85);
+      --chart-muted: #334155;
+      --chart-tint: rgba(59, 130, 246, 0.22);
+      color-scheme: dark;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
